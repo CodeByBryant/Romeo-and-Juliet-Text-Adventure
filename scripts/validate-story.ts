@@ -10,8 +10,20 @@ function assert(condition: unknown, message: string): asserts condition {
 
 function validateNodeCount() {
   assert(
-    STORY_NODES.length >= 75 && STORY_NODES.length <= 100,
-    `Story node count must be between 75 and 100. Found ${STORY_NODES.length}.`,
+    STORY_NODES.length === 25,
+    `Story node count must be 25. Found ${STORY_NODES.length}.`,
+  )
+}
+
+function validateChoiceCount() {
+  const totalChoices = STORY_NODES.reduce(
+    (total, node) => total + node.choices.length,
+    0,
+  )
+
+  assert(
+    totalChoices === 50,
+    `Story choice count must be 50. Found ${totalChoices}.`,
   )
 }
 
@@ -144,6 +156,7 @@ function runMonteCarlo(simulations = 5000) {
 
 function main() {
   validateNodeCount()
+  validateChoiceCount()
   validateActs()
   validateIdsAndEdges()
   validateReachability()

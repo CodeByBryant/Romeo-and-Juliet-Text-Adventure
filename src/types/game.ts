@@ -58,13 +58,7 @@ export type EndingId =
   | "A"
   | "B"
   | "C"
-  | "D"
-  | "E"
-  | "F"
-  | "G"
-  | "H"
-  | "I"
-  | "J";
+  | "D";
 
 export interface EndingDefinition {
   id: EndingId;

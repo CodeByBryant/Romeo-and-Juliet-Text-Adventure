@@ -6,9 +6,9 @@ The game now plays like an old-school terminal story: dark blue screen, numbered
 
 ## Project Snapshot
 
-- 80 scene nodes across Acts I-V
-- 10 endings (A-J), including a true good ending
-- Branching choices with hidden state under the hood
+- 25 scene nodes across Acts I-V
+- 50 choices woven through the story
+- 4 endings (A-D) driven by fate and luck
 - Shakespeare quote + citation shown in every scene
 - Built with React, TypeScript, SCSS, and Vite
 
