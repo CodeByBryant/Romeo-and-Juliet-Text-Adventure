@@ -159,7 +159,7 @@ export const STORY_NODES: SceneNode[] = [
         label: "Speak to her at once.",
         note: "You risk the feud for a word.",
         nextId: "a1_04" as NodeId,
-        fateShift: 2,
+        fateShift: 1,
         luckBias: -1,
       },
       {
@@ -249,7 +249,7 @@ export const STORY_NODES: SceneNode[] = [
         label: "Pledge yourself without delay.",
         note: "You accept the vow instantly.",
         nextId: "a2_02" as NodeId,
-        fateShift: 2,
+        fateShift: 1,
         luckBias: -1,
       },
       {
@@ -339,7 +339,7 @@ export const STORY_NODES: SceneNode[] = [
         label: "Speak the vows with fearless certainty.",
         note: "You bind yourselves without doubt.",
         nextId: "a3_00" as NodeId,
-        fateShift: 2,
+        fateShift: 1,
         luckBias: -1,
       },
       {
@@ -399,7 +399,7 @@ export const STORY_NODES: SceneNode[] = [
         label: "Chase Tybalt with rage.",
         note: "Your fury takes control.",
         nextId: "a3_02" as NodeId,
-        fateShift: 2,
+        fateShift: 1,
         luckBias: -1,
       },
       {
@@ -579,7 +579,7 @@ export const STORY_NODES: SceneNode[] = [
         label: "Drink the potion at once.",
         note: "You leap into the plan.",
         nextId: "a4_03" as NodeId,
-        fateShift: 2,
+        fateShift: 1,
         luckBias: -1,
       },
       {
@@ -759,7 +759,7 @@ export const STORY_NODES: SceneNode[] = [
         label: "Drink before anyone arrives.",
         note: "You accept the final act.",
         nextId: "a5_04" as NodeId,
-        fateShift: 2,
+        fateShift: 1,
         luckBias: -1,
       },
       {
@@ -789,7 +789,7 @@ export const STORY_NODES: SceneNode[] = [
         label: "Flee the tomb together now.",
         note: "You seize the chance to escape.",
         nextId: ENDING_GATE_ID,
-        fateShift: 2,
+        fateShift: 1,
         luckBias: 1,
       },
       {
